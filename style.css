@@ -1,0 +1,76 @@
+.Para-txt{
+  margin-top: 50px;
+  text-align: center;
+  color: #4CAF50;
+  font-size: 20px;
+}
+.options{
+  margin-top: 50px;
+  text-align: center;
+  color:#4CAF50;
+  padding: 70px;
+}
+.custom-plots{
+  width:100%;
+  padding: 70px;
+}
+.header-title{
+  text-align: center;
+  color: #61892F;
+  font-size: 50px;
+}
+.plt{
+  background-color:#222629;
+  padding: 50px;
+}
+
+.header-title{
+  text-align: center;
+  color:#4CAF50;
+}
+.txt{
+  font-size: 15px;
+  padding: 10px;
+  border-top: 20px;
+}
+/* The parent container taking up the full viewport */
+.container {
+  width: 100%;
+  height: 100vh;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.image-container {
+  position: absolute;
+  top: 3%;
+  left: 27%;
+  transform: translate(-50%,-50%);
+  z-index: 2;
+}
+
+.image-container img {
+  -webkit-filter: drop-shadow(-4px 5px 5px rgba(0,0,0,0.6));
+  filter: drop-shadow(-4px 5px 5px rgba(0,0,0,0.6));
+  height: 70px;
+}
+
+
+.text-container {
+  top: 3%;
+  left: 27%;
+  /* transform: translate(-50%,-50%); */
+  z-index: 1;
+  margin-left: 10px;
+}
+
+.animation {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  background: relative;
+}
